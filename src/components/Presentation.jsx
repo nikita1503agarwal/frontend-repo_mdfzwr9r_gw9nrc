@@ -1,4 +1,5 @@
 import Slide from './Slide'
+import DownloadPPT from './DownloadPPT'
 
 function Presentation() {
   return (
@@ -74,6 +75,8 @@ function Presentation() {
         'Boosts outcomes through explanations, quizzes, and progress insight',
         'A reliable companion for effective, continuous learning',
       ]} />
+
+      <DownloadPPT />
     </div>
   )
 }
